@@ -48,7 +48,11 @@ To use the PDF Downloader, you'll need a Google API key and a Custom Search Engi
 - `--cutoff_date`: Only download PDFs modified after this date (optional, format: YYYY-MM-DD)
 
 
-## Next Steps
+## Next Steps / Open Issues
 - write unit tests
 - improve readability, refactor `download_pdfs()`
 - add functionality for multiple file types
+- corrupted file handling is not entirely working
+
+## Contribution
+Feel free to contribute!
