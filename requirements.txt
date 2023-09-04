@@ -1,0 +1,2 @@
+google-api-python-client==2.24.0
+requests==2.26.0

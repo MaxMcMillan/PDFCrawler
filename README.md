@@ -8,8 +8,8 @@ This repository contains a Python-based tool for downloading PDF files based on 
 
 - Search for PDFs based on a query string
 - Download PDFs that meet specific criteria:
-  - From specific domains (e.g., `.de`)
-  - Below a maximum file size
+  - From specific domains (e.g., `.de`, `.com`)
+  - Below a given file size
   - Modified after a certain date
 - Save metadata about downloaded PDFs to a CSV file
 
@@ -18,7 +18,7 @@ This repository contains a Python-based tool for downloading PDF files based on 
 1. Clone this repository to your local machine.
 2. Install the required Python packages:
     ```bash
-    pip install google-api-python-client requests
+    pip install -r requirements.txt
     ```
 
 ## Usage
@@ -46,3 +46,9 @@ To use the PDF Downloader, you'll need a Google API key and a Custom Search Engi
 - `--num`: Number of PDFs to download (optional, default is 100)
 - `--size`: Maximum size of PDFs in bytes (optional, default is 10,000,000)
 - `--cutoff_date`: Only download PDFs modified after this date (optional, format: YYYY-MM-DD)
+
+
+## Next Steps
+- write unit tests
+- improve readability, refactor `download_pdfs()`
+- add functionality for multiple file types
