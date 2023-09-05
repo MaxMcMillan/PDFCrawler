@@ -43,7 +43,7 @@ To use the PDF Downloader, you'll need a Google API key and a Custom Search Engi
 - `--key`: Your Google API key (required)
 - `--cse`: Your Custom Search Engine ID (required)
 - `--query`: Search query for PDFs (required)
-- `--num`: Number of PDFs to download (optional, default is 100)
+- `--num`: Number of search results to check (optional, default is 100)
 - `--size`: Maximum size of PDFs in bytes (optional, default is 10,000,000)
 - `--cutoff_date`: Only download PDFs modified after this date (optional, format: YYYY-MM-DD)
 
@@ -53,6 +53,6 @@ To use the PDF Downloader, you'll need a Google API key and a Custom Search Engi
 - improve readability, refactor `download_pdfs()`
 - add functionality for multiple file types
 - corrupted file handling is not entirely working
-
+- result order differs from Google standard search
 ## Contribution
 Feel free to contribute!
